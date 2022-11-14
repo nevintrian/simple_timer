@@ -1,9 +1,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.simple_timer">
-   <application
+    package="com.vindev.simple_timer">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
         android:label="simple_timer"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1955915681676898~6089773429"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

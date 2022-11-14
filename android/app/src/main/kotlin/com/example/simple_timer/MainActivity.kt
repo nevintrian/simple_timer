@@ -1,4 +1,4 @@
-package com.example.simple_timer
+package com.vindev.simple_timer
 
 import io.flutter.embedding.android.FlutterActivity
 
